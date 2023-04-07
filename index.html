@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Url-Shortening-Api</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header__container flex">
+
+            <div class="logo__container">
+                <img src="/images/logo.svg" alt="logo">
+            </div>
+
+            <nav class="navbar inactive">
+                <ul class="navbar__link">
+                    <li>Features</li>
+                    <li>Pricing</li>
+                    <li>Resources</li>
+                </ul>
+
+                <div class="navbar__btn__container">
+                    <button class="secondary__btn btn">Login</button>
+                    <button class="primary__btn btn">Sign Up</button>
+                </div>
+
+            </nav>
+
+            <div class="menu__icon__container">
+                <img src="/images/menu-outline.svg" alt="menu-outline" class="menu__btn">
+                <img src="/images/close-outline.svg" alt="closed-outline" class="menu__btn inactive">
+            </div>
+
+        </div>
+    </header>
+    
+
+    <main>
+
+        <section class="hero__container">
+            <div class="container flex">
+
+                <article>
+                    <h1>More than just shorter links</h1>
+                    <p>Build your brand's recognition and get detailed insights on how your links are performing.</p>
+                    <button class="primary__btn btn">
+                        Get Started
+                    </button>
+                </article>
+
+                <picture>
+                    <img src="/images/illustration-working.svg" alt="illustration-working">
+                </picture>
+
+            </div>
+
+            <section class="container">
+                <div>
+                    <input type="text" name="link" id="link" placeholder="Shorten a link here...">
+                    <button class="primary__btn btn" id="shortenBtn">Shorten it</button>
+                </div>
+            </section>
+
+        </section>
+
+        <section class="secondary__container">
+            <div class="container flex">
+
+                <div class="shorten__link__container flex">
+
+                </div>
+
+                <article class="advanced__section">
+                    <h2>Advanced Statistics</h2>
+                    <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
+                </article>
+
+                <div class="card__container flex">
+
+                    <article class="card">
+                        <h3>Brand Recognition</h3>
+                        <p>Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content.</p>
+                        <div class="float__img">
+                            <img src="/images/icon-brand-recognition.svg" alt="brand recognition">
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3>Detailed Records</h3>
+                        <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+
+                        <div class="float__img">
+                            <img src="/images/icon-detailed-records.svg" alt="detailed Records">
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3>Fully Customizable</h3>
+                        <p>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+
+                        <div class="float__img">
+                            <img src="/images/icon-fully-customizable.svg" alt="Fully customizable">
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="last__section">
+            <div class="container">
+                <h2>Boost your links today</h2>
+                <button class="primary__btn btn">Get Started</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="container">
+            <div class="logo__container">
+                <span>Shortly</span>
+            </div>
+            <section>
+                <div class="footer__link__container flex">
+                    <h3>Feature</h3>
+                    <ul>
+                        <li>Link Shortening</li>
+                        <li>Branded Links</li>
+                        <li>Analytics</li>
+                    </ul>
+                </div>
+
+                <div class="footer__link__container flex">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li>Blog</li>
+                        <li>Developers</li>
+                        <li>Support</li>
+                    </ul>
+                </div>
+
+                <div class="footer__link__container flex">
+                    <h3>Company</h3>
+                    <ul>
+                        <li>About</li>
+                        <li>Our Team</li>
+                        <li>Careers</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+
+                <div class="social__container flex">
+                   <a href="#"><img src="/images/icon-facebook.svg" alt="icon-facebook"></a>
+
+                   <a href="#"><img src="/images/icon-twitter.svg" alt="icon-twitter"></a>
+
+                   <a href="#"><img src="/images/icon-pinterest.svg" alt="icon-pinterest"></a>
+
+                   <a href="#"><img src="/images/icon-instagram.svg" alt="icon-instagram"></a>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+    <script src="/dist/index.js"></script>
+</body>
+</html>
